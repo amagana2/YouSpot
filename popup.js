@@ -1,5 +1,5 @@
-// main.js
-alert("YouTube detected!");
+// popup.js
+alert("Popup clicked!");
 
 const videoID = "";
 const apiKey = "AIzaSyC3TTJ65ThTm_l-SCbdGWYwaXhlH6vuk8k";
