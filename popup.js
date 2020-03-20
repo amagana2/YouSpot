@@ -1,10 +1,5 @@
 // popup.js
-alert("Popup clicked!");
-
-const videoID = "";
-const apiKey = "AIzaSyC3TTJ65ThTm_l-SCbdGWYwaXhlH6vuk8k";
-const url = "https://www.googleapis.com/youtube/v3/videos";
-
+alert("Popup.js");
 
 // TODO: How should we get the song?
 /**
