@@ -2,9 +2,37 @@
 <head>
     <meta charset="utf-8">
     <title>YouSpot</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome Icons -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
-<body>
-<p>Welcome to YouSpot!</p>
+<body class="main_body">
+    <div class="container">
+        <div class="header-row row" style="border-bottom: black solid 1px;">
+            <div class="col-8">
+                <p>YouSpot</p>
+            </div>
+            <div class="col-4">
+                <button id="settings_click" type="button" class="btn btn-primary"><i class="fa fa-cog"></i></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                Placeholder
+            </div>
+            <div class="col-4">
+                <button id="button_click" type="button" class="btn btn-secondary btn-sm">Add</button>
+            </div>
+        </div>
+    </div>
+
+<!-- Main Script -->
+<script src="popup.js"></script>
 </body>
 </html>
