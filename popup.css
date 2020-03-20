@@ -1,0 +1,17 @@
+.main_body {
+    padding: 0;
+    margin: auto;
+    background-color: lightgray;
+    width: 250px;
+    height: 150px;
+}
+
+.header-row {
+    background-color: slategray;
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.row {
+    padding-top: 5%;
+}
